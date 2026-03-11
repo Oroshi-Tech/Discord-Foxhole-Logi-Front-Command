@@ -1,0 +1,14 @@
+{
+   "code": "$deletecommand",
+   "filename": "Bouton Livré",
+   "ttype": "button",
+   "tword": "Livré",
+   "channeli": "",
+   "rolei": "",
+   "minperms": 0,
+   "clone": false,
+   "channelUsed": "0",
+   "status": true,
+   "token": "Dqgrr",
+   "folder": "DEFAULT"
+}

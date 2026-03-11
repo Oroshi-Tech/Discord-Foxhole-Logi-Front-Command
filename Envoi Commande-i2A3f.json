@@ -1,0 +1,14 @@
+{
+   "code": "\n// Save answers to different variables\n$let[position;$modalAnswer[1]]\n$let[reason;$modalAnswer[reason]]\n$let[pronouns;$modalAnswer[pronouns]]\n\n// Send message to #staff-applications\n$channelSendMessage[$channelID[Logi Front];\n    \n    {author:$usertag:$authorAvatar}\n    {title:Commande Logi Front}\n    {description:$mention passe une commande}\n    {field:Position:$position}\n    {field:Commande:```$reason```}\n    {button:Livré:grey::Livré}\n    \n    // Attach pronouns section only if provided\n    $if[$get[pronouns]!=]\n        {footer:Pronouns\\: $pronouns} // : has been escaped using a backslash\n    $endIf\n  \n\n]\n\n ",
+   "filename": "Envoi Commande",
+   "ttype": "modal",
+   "tword": "Com-logi-front",
+   "channeli": "",
+   "rolei": "",
+   "minperms": 0,
+   "clone": false,
+   "channelUsed": "0",
+   "status": true,
+   "token": "i2A3f",
+   "folder": "DEFAULT"
+}

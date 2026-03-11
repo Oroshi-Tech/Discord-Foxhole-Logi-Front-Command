@@ -1,0 +1,14 @@
+{
+   "code": "$modal[\n    {title=Commande Logi Front}\n    {id=Com-logi-front}\n    \n    {input=\n        {name=Position}\n        {ph=Quelle BB ?}\n        {id=position}\n        {type=short}\n        {min=1}\n        {max=100}\n    }\n    \n    {input=\n        {name=Commande}\n        {ph= Si possible une commande par Dunne}\n        {id=reason}\n        {type=long}\n        {min=1}\n    }\n    \n    \n]\n",
+   "filename": "Slash Command",
+   "ttype": "slash",
+   "tword": "logi",
+   "channeli": "",
+   "rolei": "",
+   "minperms": 0,
+   "clone": false,
+   "channelUsed": "0",
+   "status": true,
+   "token": "VeV3M",
+   "folder": "DEFAULT"
+}
